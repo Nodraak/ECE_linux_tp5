@@ -9,7 +9,7 @@ case ${CHOICE} in
         tar -czf archive.tar.gz $FILE
     ;;
     "zip" )
-        zip -r archive.tar $FILE
+        zip -r archive.zip $FILE
     ;;
     "rar" )
         echo "rar is not implemented"
